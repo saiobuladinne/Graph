@@ -64,7 +64,7 @@ public class CountTriangles_And_ShoppingPatterns {
 			graph.get(products_to.get(i)).add(products_from.get(i));
 		}
 		
-		int count =  0;
+		int count =  Integer.MAX_VALUE;
 		for(int i=1;i<=numOfProducts;i++){
 			for(int j=i+1;j<=numOfProducts;j++){
 				for(int k=j+1;k<=numOfProducts;k++){
